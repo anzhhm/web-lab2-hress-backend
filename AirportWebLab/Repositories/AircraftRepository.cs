@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AirportWebLab.Repositories
 {
-    // Repositories/Implementations/AircraftRepository.cs
     public class AircraftRepository : IAircraftRepository
     {
         private readonly AirlineContext _context;

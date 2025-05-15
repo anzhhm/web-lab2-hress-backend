@@ -3,7 +3,6 @@ using AirportWebLab.Repositories;
 
 namespace AirportWebLab.Services
 {
-    // Services/AircraftService.cs
     public class AircraftService
     {
         private readonly IAircraftRepository _repository;

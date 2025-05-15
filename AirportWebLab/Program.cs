@@ -18,7 +18,6 @@ builder.Services.AddDbContext<AirlineContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Додати сервіси, репозиторії
 builder.Services.AddScoped<IAircraftRepository, AircraftRepository>();
 builder.Services.AddScoped<AircraftService>();
 
